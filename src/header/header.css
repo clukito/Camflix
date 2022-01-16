@@ -1,0 +1,33 @@
+* {
+  font-family: "Noto Sans", "Trebuchet MS", "Lucida Grande", Arial, sans-serif;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+}
+
+#celine {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  font-size: 130%;
+  color: white;
+}
+
+#campflix {
+  margin: 25px 30px;
+  font-size: 190%;
+  font-weight: bold;
+  color: rgb(172, 10, 10);
+}
+
+input {
+  font-size: 90%;
+  border-radius: 10px;
+  width: 160px;
+  height: 25px;
+  padding-left: 15px;
+}

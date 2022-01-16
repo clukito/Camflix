@@ -1,0 +1,65 @@
+.card {
+  margin: 18px;
+}
+
+.description h1 {
+  margin: 0 0 10px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 120%;
+  color: white;
+  font-weight: normal;
+}
+
+.card img:hover {
+  opacity: 0.7;
+}
+
+img {
+  width: 180px;
+  border-radius: 10px;
+}
+
+.search .App {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px 10px;
+  overflow-x: scroll;
+}
+
+.search input {
+  margin-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 15px;
+  right: 130px;
+  font-size: 90%;
+  border-radius: 10px;
+  width: 160px;
+  height: 25px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+  overflow-x: scroll;
+}
+
+/*big image */
+#big-image {
+  background-image: url("https://flxt.tmsimg.com/assets/p14950191_b_h9_ab.jpg");
+  height: 70vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  #big-image {
+    height: 50vh;
+  }
+}
